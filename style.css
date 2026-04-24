@@ -1,0 +1,105 @@
+
+
+body{
+    background-color:#202020;
+    color: white;
+    font-family: Arial;
+
+}
+.header{
+    height: 80px;
+    padding-left: 20px;
+    background-image: url(borito/konyvtar.jpg);
+}
+.header h1{
+    float: left;
+    text-transform: uppercase;
+    margin: 10px 30px 0 0;
+}
+.header p{
+    padding-top: 35PX;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+.grid-container{
+    width: 950px;
+    margin: 0 auto;
+}
+nav{
+    background-color: red;
+    height: 35px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 9pt;
+    padding: 10px 20px 10px;
+}
+nav a.aktiv{
+    background-color: #202020;
+}
+nav a:hover{
+    background-color: #202020;
+}
+
+.doboz {
+  grid-area: middle;
+  border-radius: 4%;
+  background-color: gray;
+  padding: 5px;
+  width: 40%;
+  height: 30%;
+}
+.footer{
+    grid-area: footer;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item .desc {
+  padding: 15px;
+  text-align: center;
+}
+.gysor{
+    height: 150px;
+}
+
+.zoom {
+  transition: transform 0.3s ease;
+}
